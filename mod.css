@@ -1,0 +1,45 @@
+@charset "utf-8";
+body { 
+	margin: 0px;
+	overflow: overlay;
+	color: white;
+	font-family: 'montserrat';
+	background-image: url("1.jpg");
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed;  
+  	background-size: cover;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+div{
+	margin: 30px 40px 0px 40px;
+	background: black;
+	padding: 10px;
+	border-radius: 10px;
+}
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+	font-size: 20px;
+  	bottom: 0;
+  	width: 100%;
+	background-color: black;
+	color: white;
+}
+li a {
+  	display: block;
+  	text-align: center;
+  	padding: 5px 0px;
+  	text-decoration: none;
+	color: white;
+}
+li a:hover {
+	color: red;
+}
